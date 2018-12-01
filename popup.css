@@ -1,0 +1,18 @@
+.body {
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px;
+    margin: 2px;
+    box-shadow: 1px 1px #ddd;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: #eee;
+    box-shadow: 2px 2px #ddd;
+}

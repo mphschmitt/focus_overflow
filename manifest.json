@@ -1,0 +1,22 @@
+{
+	"name": "Focus Overflow",
+	"version": "1.0",
+	"description": "Remove the hot network question element from stack overflow",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"storage", 
+		"declarativeContent", 
+		"activeTab", 
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"browser_action": {
+		"default_title": "Focus Overflow",
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2
+}
